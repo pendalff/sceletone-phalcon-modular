@@ -1,0 +1,20 @@
+.nav-wrap{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 );
+}
+#footer .nav-wrap{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 );
+}
+.btn:focus,
+.btn:hover,
+.btn{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 );
+}
+.search-form .btn{
+	filter:none;
+}
+.title-wrap h2{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad8cc5', endColorstr='#8d57b3',GradientType=0 );
+}
+.main-info-wrap li.even{
+	background-repeat: repeat-y;
+}
