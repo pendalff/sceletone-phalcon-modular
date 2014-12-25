@@ -1,0 +1,5 @@
+.idea
+composer.lock
+!vendor/.gitempty
+vendor
+/app/config/env/config.dev.php
