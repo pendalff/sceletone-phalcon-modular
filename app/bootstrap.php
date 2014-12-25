@@ -10,6 +10,7 @@
  */
 error_reporting(E_ALL);
 
+
 /**
  * Set the default time zone.
  * @see  http://php.net/timezones

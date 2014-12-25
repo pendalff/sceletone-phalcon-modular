@@ -1,5 +1,9 @@
 AddDefaultCharset UTF-8
 
+<IfModule mod_env.c>
+    SetEnv APPLICATION_ENV "prod"
+</IfModule>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-d

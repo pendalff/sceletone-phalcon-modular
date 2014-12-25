@@ -1,6 +1,10 @@
-SetEnv APPLICATION_ENV "dev"
-
 AddDefaultCharset UTF-8
+
+php_flag display_errors on
+
+<IfModule mod_env.c>
+    SetEnv APPLICATION_ENV "dev"
+</IfModule>
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
