@@ -3,6 +3,11 @@ $config = new \Phalcon\Config(array(
     'database' => array(
         /** here overload from ENV config */
     ),
+
+    'databaseRead' => array(
+        /** here overload from ENV config */
+    ),
+
     'loader'      => array(
         'namespaces' => array(
             'Application' => APPLICATION_PATH . '/modules/Application',
@@ -15,10 +20,6 @@ $config = new \Phalcon\Config(array(
         'moduleDir'      => APPLICATION_PATH. DS . 'modules'. DS,
 
         'baseUri'        => '/',
-    ),
-    'view' => array(
-        'layoutsDir' => APPLICATION_PATH. DS . 'views'. DS . 'layouts' . DS,
-        'partialsDir' => APPLICATION_PATH. DS . 'views'. DS . 'partials' . DS,
     ),
     'modules' => include __DIR__ . DS . 'modules.php'
 ));
